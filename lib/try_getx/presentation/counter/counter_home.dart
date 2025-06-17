@@ -1,4 +1,4 @@
-import 'package:dev_sandbox/try_getx/presentation/controller/controller_counter.dart';
+import 'package:dev_sandbox/try_getx/presentation/counter/controller/controller_counter.dart';
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/route_manager.dart';
