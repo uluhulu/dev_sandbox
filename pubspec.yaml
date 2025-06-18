@@ -10,12 +10,14 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.7.2
+  provider: ^6.1.5
   socket_io_client: ^3.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  test: ^1.25.15
 
 flutter:
   uses-material-design: true

@@ -1,6 +1,5 @@
-import 'package:dev_sandbox/try_getx/presentation/counter_home.dart';
+import 'package:dev_sandbox/notifiers/cart/presentation/cart_main.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,6 +10,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(home: CounterHome());
+    // return const GetMaterialApp(home: CounterHome());
+    // return MaterialApp(home: ListPage());
+    return MaterialApp(home: CartMainPage());
   }
 }
