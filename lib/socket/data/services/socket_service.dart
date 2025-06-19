@@ -29,27 +29,24 @@ final class SocketServiceImplementation extends SocketService {
   }
 
   late Socket _socket;
+
   @override
   Future<void> authorize(String userId) {
-    // TODO: implement authorize
     throw UnimplementedError();
   }
 
   @override
   Future<void> connect() {
-    // TODO: implement connect
     throw UnimplementedError();
   }
 
   @override
   Future<void> disconnect() {
-    // TODO: implement disconnect
     throw UnimplementedError();
   }
 
   @override
   Future<void> send(Object message) {
-    // TODO: implement send
     throw UnimplementedError();
   }
 
