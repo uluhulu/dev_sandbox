@@ -6,7 +6,6 @@ import 'package:rxdart/rxdart.dart';
 
 void main() async {
   await tryBehaviourSubject();
-
   runApp(const MainApp());
 }
 
